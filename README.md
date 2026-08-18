@@ -1,4 +1,4 @@
-# Ai Startup · Startup Product & GTM — Learning Repository
+# Ai Startup · Startup Product & GTM — Curriculum
 
 <!-- aicg:site-banner -->
 > 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum). Live cohorts &amp; team programs: **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
@@ -13,6 +13,7 @@ Curriculum for the Startup Product & GTM role.
 ```
 startup-product-gtm-curriculum/
 ├── lessons/mod-XXX-*/        modules with lectures, exercises, labs, quizzes
+├── exemplars/mod-XXX-*/      worked reference deliverables (not code solutions)
 ├── projects/project-XXX-*/   multi-module capstones
 ├── CURRICULUM.md             role-level coverage map
 ├── PREREQUISITES.md          assumed entry skills
@@ -20,9 +21,9 @@ startup-product-gtm-curriculum/
 └── README.md                 this file
 ```
 
-## Paired Solutions Repo
+## Exemplars
 
-[`startup-product-gtm-curriculum`](https://github.com/ai-startup-curriculum/startup-product-gtm-curriculum) carries the reference implementations.
+This is a single-repo curriculum: worked reference deliverables live in-repo under [`exemplars/`](./exemplars), not in a separate solutions repo.
 
 ---
 
