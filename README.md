@@ -1,7 +1,7 @@
 # Ai Startup · Startup Product & GTM — Curriculum
 
 <!-- aicg:site-banner -->
-> 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum) · [Startup](https://github.com/ai-startup-curriculum).
+> 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum) · [Startup](https://github.com/ai-startup-curriculum) · [Workforce](https://github.com/ai-workforce-curriculum).
 <!-- /aicg:site-banner -->
 
 Deep functional pillar for the customer-facing branch of the startup dependency graph — **Customer Discovery → PMF → Positioning → ICP → Founder-Led Sales → Pricing → Sales Motion → Demand Gen → Retention & Expansion → GTM Metrics & First Hires**. Covers IDEA-stage problem validation through the Series-A boundary where the founder-led motion transitions into the first repeatable revenue engine.
