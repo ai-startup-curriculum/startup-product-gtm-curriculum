@@ -24,14 +24,18 @@ Deliver a folder `exercise-01/` with:
 
 Deliver `part-a-instrument-and-recruiting-brief.md`.
 
-**A1 — Van Westendorp PSM instrument (10 min).** Author the four PSM questions using Chapter 1's canonical wording, adapted to your product's language:
+**A1 — Van Westendorp PSM instrument (10 min).** Pick the **pricing-unit candidate first** (per month, per year, per seat, per repo, per event, per 1K queries — whichever matches the metric candidate you'd test with Exercise 04). The unit choice is load-bearing: all four PSM questions, the Gabor-Granger price points, and the memo's acceptable band are all denominated in it. If you cannot defend the unit in one sentence ("we're pricing per repo because the frequency variable in the value equation is PR-reviews-per-repo-per-year"), the whole instrument floats.
 
-- Too cheap ("At what price would you consider it so *inexpensive* that you'd question quality and not want to buy?")
-- Bargain ("At what price would you consider it a *bargain* — a great buy for the money?")
-- Getting expensive ("At what price would you consider it to start getting *expensive* but still worth considering?")
-- Too expensive ("At what price would you consider it so *expensive* that you would not consider buying it?")
+Then author a two-sentence product description (the same paragraph shown to every respondent before the four questions) so every respondent is pricing the same thing. The description names (a) what the product does in the buyer's language, (b) who it is for, and (c) nothing about price — no anchor, no comparison, no "typical competitor" sticker.
 
-Each question must specify the **unit** the respondent is answering in (per month, per year, per seat, per repo, per event — whichever matches your target pricing metric candidate). Author a two-sentence product description (the same paragraph shown to every respondent before the questions) so the respondent is pricing the same thing.
+Then author the four PSM questions using Chapter 1's canonical wording, adapted to your product's language and the chosen unit:
+
+- Too cheap ("At what price **per {unit}** would you consider it so *inexpensive* that you'd question quality and not want to buy?")
+- Bargain ("At what price **per {unit}** would you consider it a *bargain* — a great buy for the money?")
+- Getting expensive ("At what price **per {unit}** would you consider it to start getting *expensive* but still worth considering?")
+- Too expensive ("At what price **per {unit}** would you consider it so *expensive* that you would not consider buying it?")
+
+The four questions must reference the same "it" as the product description — no re-describing the product between questions, no feature additions mid-survey.
 
 **A2 — Gabor-Granger instrument (10 min).** Author the buy / no-buy question at each price point. Pick **5 price points** spanning ~4× (e.g. {$3, $6, $12, $24, $48}) that bracket your best current guess of the acceptable range. State the randomisation rule explicitly — every respondent's starting price is drawn uniformly from the 5. Author the follow-up branching: if yes at $X, ask at the next-higher price; if no at $X, ask at the next-lower price. Cycle until the highest-yes price is bracketed.
 
@@ -81,7 +85,9 @@ Report the count of dropped responses and the reasons.
 
 ### Part C — The one-page findings memo (30 min)
 
-Deliver `part-c-findings-memo.md`. Write the one-page WTP-research summary in the shape Chapter 6 requires (Section 5 of the pricing pack). Structure:
+Deliver `part-c-findings-memo.md`. The memo is the compressed decision artifact; deep analysis stays in Part B. Walk it in three passes:
+
+**C1 — Compose the memo block-by-block (15 min).** Write the one-page WTP-research summary in the shape Chapter 6 requires (Section 5 of the pricing pack). Fill every block from Part B's analysis — if a block requires a number Part B does not produce, re-open Part B and compute it there first rather than inventing it in the memo.
 
 ```
 # WTP Research Summary — {product} — {segment} — {date}
@@ -100,7 +106,7 @@ Deliver `part-c-findings-memo.md`. Write the one-page WTP-research summary in th
 
 ## Gabor-Granger (per {unit})
 - Demand curve peak (revenue-max, raw): ${range}
-- Demand curve peak (discounted 30% for real-vs-stated): ${range}
+- Demand curve peak (discounted {X}% for real-vs-stated): ${range}
 - Anchoring check: {any anchor dependence noted}
 
 ## Per-segment cuts
@@ -123,6 +129,10 @@ Deliver `part-c-findings-memo.md`. Write the one-page WTP-research summary in th
 ```
 
 Compress ruthlessly. If the memo runs longer than one page, the discipline hasn't landed — cut, don't append.
+
+**C2 — Misreads self-audit (10 min).** Read the draft memo once as a skeptical board member who has never seen the sample. For every claim, ask: is the sample large enough to defend this to the precision I'm claiming? Every too-sharp claim moves into the "misreads I explicitly refuse" block, and the memo's claim is widened to a defensible range. Force the "misreads I refuse" list to at least 3 specific items — "I refuse to claim the OPP is a single dollar number; I refuse to extrapolate the enterprise cut off N=4; I refuse to call the Gabor-Granger peak a revenue forecast rather than a stated-intent peak." A memo without this list ships as over-claim ammunition the first time someone pastes it into a board update.
+
+**C3 — Refresh schedule + Exercise 02 handshake (5 min).** Name the refresh date (~12 months out — longer for enterprise segments where buying cycles are slow, shorter if the category is moving fast). Name the single anchor price Exercise 02's value-capture-ratio work will be tested against. Flag the Exercise-02 value-ceiling-vs-WTP-ceiling ratio as `TBD — fills in from Exercise 02` — this is the pointer the pricing pack will resolve in Chapter 2; the WTP memo does not close that loop by itself.
 
 ## Starter guidance
 
@@ -150,6 +160,7 @@ Your submission is complete when:
 - [ ] Part B's per-segment cuts report at least one meaningful segmentation with per-segment PMC / PME / revenue-max, flagging any thin cut.
 - [ ] Part B's data-quality notes list the drop reasons and the drop count.
 - [ ] Part C is one page in the Chapter 6 pack shape, with sample block, PSM block, Gabor-Granger block, per-segment cuts, a value-gap flag placeholder for Exercise 02, an anchor-price-for-v1 stake, and the "misreads I refuse" list of at least 3 items.
+- [ ] Part C3 names the refresh date and flags the Exercise-02 value-ceiling-vs-WTP-ceiling ratio as `TBD` for downstream resolution.
 - [ ] Any fielding you did not actually complete is labelled `simulated` at the top of Part B and the memo; simulation results are not reported as fielded findings.
 - [ ] Any factual claim (a benchmark rate, a competitor price, a category norm) that is not from your own data is flagged `<!-- needs-research: ... -->` rather than invented.
 

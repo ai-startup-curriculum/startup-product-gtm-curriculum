@@ -64,16 +64,22 @@ Deliver `part-b-populated-pipeline.md`. Populate 8-12 opportunities in your chos
 
 If you have a real pipeline, use it. If not, use opportunities from Exercises 02-05 (role-played discovery calls, role-played demos) — extended with fabricated but plausible details as needed. Note fabricated deals with `<!-- needs-research -->`.
 
-**Coverage requirements.** The 8-12 opportunities must span:
+**B1 — Schema instantiation + candidate list (10 min).** Before you populate anything, confirm the Part A schema is actually deployed in the tool (five fields live, six operational stages + three terminal stages present, reason-code enum populated). Then assemble the candidate list — 8-12 deal names pulled from your real pipeline or from Exercises 02-05's role-played accounts. For each candidate, note in one line: where the deal came from (real, Exercise 02 role-play, fabricated) and which operational stage you expect it will land in. The candidate list is the input to B2; populating fields against a half-ready schema produces half-ready data.
+
+**B2 — Populate the five fields per opportunity (45 min).** Walk the candidate list one deal at a time. For each, enter in the tool: `Stage`, `Next step + due date`, `Dollar value (ACV or TCV)`, `Close date`, and — for Closed-Won / Closed-Lost deals — the `Reason code` from Part A4. Budget ~3-5 minutes per deal; if a deal takes longer than 5 minutes, you are negotiating with yourself over whether to put a real value in a field, which is the specific discipline this exercise is installing. Capture the output — a screenshot of the deal-pipeline view, an export of the schema, or (for a Google Sheet) a paste of the populated rows — in the deliverable.
+
+**B3 — Coverage check (10 min).** Audit the 8-12 populated opportunities against the coverage requirements:
 
 - All six operational stages (Prospect through Close) — at least 1 per stage.
 - The ACV band from Exercise 03 — some SPICED-band, some MEDDIC-band, ideally at least 1 MEDDPICC-band.
 - At least 2 opportunities in Nurture (with dated reactivation triggers).
 - At least 1 recent Closed-Won and 1 recent Closed-Lost (with reason codes filled).
 
-**The population honesty test.** For every field, ask: is this the real value, or the aspirational value? The exercise's whole point is honest state. A deal with a `Next step: TBD` or a `Dollar value: TBD` is a hygiene failure — either it has to be populated with a real value now, or the deal is not really open.
+If a coverage requirement is unmet, add one more candidate to fill the gap — do not rebalance by moving an existing deal into a stage it does not really occupy. Capture a short table showing which deal satisfies which requirement.
 
-Include a per-deal one-paragraph note explaining any unusual value (e.g., "this deal has a very-long Close date because the buyer is post-planning-cycle").
+**B4 — The population honesty audit + per-deal notes (10 min).** Walk every field on every deal and ask: is this the real value, or the aspirational value? The exercise's whole point is honest state. A deal with a `Next step: TBD` or a `Dollar value: TBD` is a hygiene failure — either it has to be populated with a real value now, or the deal is not really open. Resolve every TBD before moving to Part C.
+
+Include a per-deal one-paragraph note explaining any unusual value (e.g., "this deal has a very-long Close date because the buyer is post-planning-cycle" or "this deal's ACV is a mid-point of a $10-15K range because the proposal is not yet out"). The notes are the audit trail Part C will walk against.
 
 ### Part C — The weekly forecast walk (45 min)
 
