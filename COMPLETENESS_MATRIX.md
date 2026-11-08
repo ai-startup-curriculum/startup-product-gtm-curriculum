@@ -2,7 +2,7 @@
 
 AI Startup Curriculum · Level 30 · [learning](https://github.com/ai-startup-curriculum/startup-product-gtm-curriculum)
 
-_Generated 2026-11-03 by `aicg org completeness`._
+_Generated 2026-11-08 by `aicg org completeness`._
 
 **Overall: 100%**
 
@@ -18,8 +18,8 @@ _Generated 2026-11-03 by `aicg org completeness`._
 | `mod-102-pmf-signal-and-measurement` | ✅ Complete | 25,694 | 7 | 5 | — |
 | `mod-103-positioning-and-messaging` | ✅ Complete | 41,419 | 7 | 6 | — |
 | `mod-104-icp-and-buyer-personas` | ✅ Complete | 40,785 | 7 | 5 | — |
-| `mod-105-founder-led-sales` | ✅ Complete | 57,037 | 8 | 7 | — |
-| `mod-106-pricing-and-packaging` | ✅ Complete | 47,584 | 6 | 6 | — |
+| `mod-105-founder-led-sales` | ✅ Complete | 57,355 | 8 | 7 | — |
+| `mod-106-pricing-and-packaging` | ✅ Complete | 47,992 | 6 | 6 | — |
 | `mod-107-sales-motion-design` | ✅ Complete | 56,496 | 6 | 6 | — |
 | `mod-108-demand-generation-and-channels` | ✅ Complete | 65,118 | 7 | 6 | — |
 | `mod-109-retention-expansion-and-growth-loops` | ✅ Complete | 36,231 | 7 | 6 | — |
