@@ -36,7 +36,7 @@ Cluster the candidates from step 1. Two candidates that describe the same underl
 
 For each deduplicated job, author 1–3 **outcome statements** in the Ulwick shape:
 
-> _[direction of improvement]_ the _[metric]_ of _[unit of measure]_ _[context]_.
+> *[direction of improvement]* the *[metric]* of *[unit of measure]* *[context]*.
 
 For each outcome:
 
