@@ -30,7 +30,7 @@ Deliver `part-a-crm-setup.md`.
 
 - `Stage` — the enum of 9 values (Prospect, Outreach, Discovery, Demo, Proposal, Close, Closed-Won, Closed-Lost, Nurture).
 - `Next step + due date` — the free-text next action + the date field.
-- `Dollar value (ACV or TCV)` — currency field, no TBD placeholders allowed.
+- `Dollar value (ACV or TCV)` — currency field; empty cells or `???` fillers are not acceptable values (see B4).
 - `Close date` — date field.
 - `Reason code (on close)` — enum from the list in A4.
 
@@ -77,7 +77,7 @@ If you have a real pipeline, use it. If not, use opportunities from Exercises 02
 
 If a coverage requirement is unmet, add one more candidate to fill the gap — do not rebalance by moving an existing deal into a stage it does not really occupy. Capture a short table showing which deal satisfies which requirement.
 
-**B4 — The population honesty audit + per-deal notes (10 min).** Walk every field on every deal and ask: is this the real value, or the aspirational value? The exercise's whole point is honest state. A deal with a `Next step: TBD` or a `Dollar value: TBD` is a hygiene failure — either it has to be populated with a real value now, or the deal is not really open. Resolve every TBD before moving to Part C.
+**B4 — The population honesty audit + per-deal notes (10 min).** Walk every field on every deal and ask: is this the real value, or the aspirational value? The exercise's whole point is honest state. A deal with a `Next step: ???`, an empty `Dollar value`, or a blank `Close date` is a hygiene failure — either it has to be populated with a real value now, or the deal is not really open. Resolve every empty-or-filler field before moving to Part C.
 
 Include a per-deal one-paragraph note explaining any unusual value (e.g., "this deal has a very-long Close date because the buyer is post-planning-cycle" or "this deal's ACV is a mid-point of a $10-15K range because the proposal is not yet out"). The notes are the audit trail Part C will walk against.
 
@@ -114,7 +114,7 @@ Sum the Commit + Best-case totals; compare against your quarter target (real or 
 ## Starter guidance
 
 - **Choose the smallest tool that works.** A Google Sheet with six columns is sufficient through the first 15-30 deals. Attio or HubSpot Free is fine. Salesforce is overkill at SEED and the customisation cost outweighs the discipline benefit. The tool is not strategic; the discipline is.
-- **Populate `TBD` on nothing.** Every deal has a specific stage, a specific next-step, a specific dollar value, a specific close date. If you cannot populate one honestly, either the deal is not really open or the discipline has already broken.
+- **Leave no field as `???` or blank.** Every deal has a specific stage, a specific next-step, a specific dollar value, a specific close date. If you cannot populate one honestly, either the deal is not really open or the discipline has already broken.
 - **The stage exit criteria are the transferability test.** Chapter 8's substitution test starts here. A colleague reading Part A's criteria should be able to independently classify a deal you have never described to them.
 - **The forecast walk is where honesty gets tested.** Every deal in Commit is a deal you would defend to the board. If you are calling 12 of 12 open deals Commit, either you have an unusual pipeline (rare) or you are optimism-inflating. Chapter 7's honest classification is one-per-deal, defensible.
 - **The no-next-step audit is done live.** Not deferred. If Part C reports "3 deals in the no-next-step column that I'll handle next week," the exercise's discipline-installation half is skipped. Resolve now.
@@ -133,7 +133,7 @@ Your submission is complete when:
 - [ ] Part A contains the 8-12 (up to 14) reason-code list with one-sentence definitions and named feedback loops per code.
 - [ ] Part B contains 8-12 opportunities populated in the actual tool (not just written on paper) with all five fields honestly filled.
 - [ ] Coverage requirements met: all six operational stages, ACV band spans SPICED / MEDDIC / MEDDPICC, at least 2 in Nurture, at least 1 recent Closed-Won and 1 recent Closed-Lost with reason codes.
-- [ ] No `TBD` values on any field; fabricated deals flagged `needs-research`.
+- [ ] No empty or filler values (`???`, "unknown", blank cell) on any field; fabricated deals flagged `needs-research`.
 - [ ] Part C — no-next-step audit resolved live during the exercise (new steps booked or close-losted with reasons filed).
 - [ ] Part C — stage-regression audit performed, any regressed deals documented.
 - [ ] Part C — forecast walk performed with a per-deal Commit / Best-case / Pipeline classification and a rationale sentence.
@@ -145,8 +145,8 @@ Your submission is complete when:
 ## Common ways this exercise goes wrong
 
 - **The over-configured-CRM trap.** Founder installs Salesforce and configures 30 custom fields. Populates 4. Fix: five load-bearing fields, done well; add fields only when a specific question makes them worth the maintenance cost.
-- **The tool-with-no-discipline trap.** Beautiful HubSpot install; every deal has `Next step: TBD`. Fix: discipline is the point; tool is the substrate.
-- **The TBD-fields trap.** Deals with `Dollar value: TBD` or `Close date: TBD`. Forecast is uncomputable. Fix: no TBDs; if you cannot populate, the deal is not really open.
+- **The tool-with-no-discipline trap.** Beautiful HubSpot install; every deal has `Next step: ???`. Fix: discipline is the point; tool is the substrate.
+- **The empty-fields trap.** Deals with a blank `Dollar value` or `Close date`. Forecast is uncomputable. Fix: no empty-or-filler values; if you cannot populate one honestly, the deal is not really open.
 - **The vague-next-step trap.** `Next step: follow up`. Fix: specific action, specific date, per Chapter 5's discipline.
 - **The all-Commit forecast trap.** Every deal in Proposal or Close is classified Commit. Number is fiction. Fix: one-per-deal defensible classification; Chapter 7's Commit-accuracy calibration is the long-term instrument.
 - **The stage-inflation trap.** Deals in Proposal that never had a real proposal sent. Fix: exit criteria applied honestly; deals regress when criteria not met.
