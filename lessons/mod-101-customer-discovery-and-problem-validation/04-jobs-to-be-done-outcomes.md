@@ -19,7 +19,7 @@ This chapter teaches you to translate a discovery corpus into (a) a list of jobs
 
 Christensen's canonical job statement has three parts: **a situation**, **a motivation**, and **an expected outcome**. The template:
 
-> When _[situation]_, I want to _[motivation / job]_, so I can _[expected outcome]_.
+> When *[situation]*, I want to *[motivation / job]*, so I can *[expected outcome]*.
 
 Example (from a code-review-tool discovery):
 
@@ -35,7 +35,7 @@ That statement has three properties useful downstream:
 
 Ulwick's ODI produces a stricter statement — a **desired outcome** worded so you can measure it. The template ([Strategyn — Outcome-Driven Innovation](https://strategyn.com/jobs-to-be-done/)):
 
-> _[direction of improvement]_ the _[metric]_ of _[unit of measure]_ _[context]_.
+> *[direction of improvement]* the *[metric]* of *[unit of measure]* *[context]*.
 
 Examples:
 
